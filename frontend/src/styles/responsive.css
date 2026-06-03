@@ -1,0 +1,110 @@
+@media (max-width: 900px) {
+  main > div {
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+  }
+
+  section {
+    max-width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  div[style*="grid-template-columns: 1fr 1fr"],
+  div[style*="grid-template-columns: 1.2fr 0.8fr"],
+  div[style*="grid-template-columns: 1.35fr 0.65fr"],
+  div[style*="grid-template-columns: 1fr 390px"],
+  div[style*="grid-template-columns: 280px 1fr"],
+  div[style*="grid-template-columns: 240px 1fr"],
+  div[style*="grid-template-columns: 1.1fr 0.9fr"],
+  section[style*="grid-template-columns: 1fr 1fr"],
+  section[style*="grid-template-columns: 1.2fr 0.8fr"],
+  section[style*="grid-template-columns: 1.35fr 0.65fr"],
+  section[style*="grid-template-columns: 1fr 390px"],
+  section[style*="grid-template-columns: 280px 1fr"],
+  section[style*="grid-template-columns: 240px 1fr"],
+  section[style*="grid-template-columns: 1.1fr 0.9fr"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  div[style*="grid-template-columns: repeat(3, 1fr)"],
+  div[style*="grid-template-columns: repeat(5, 1fr)"],
+  div[style*="grid-template-columns: repeat(2, 1fr)"],
+  section[style*="grid-template-columns: repeat(3, 1fr)"],
+  section[style*="grid-template-columns: repeat(5, 1fr)"],
+  section[style*="grid-template-columns: repeat(2, 1fr)"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  div[style*="height: 520px"],
+  div[style*="height: 540px"],
+  div[style*="height: 440px"] {
+    height: auto !important;
+    min-height: 280px !important;
+  }
+
+  div[style*="min-height: 640px"] {
+    min-height: auto !important;
+  }
+
+  div[style*="position: sticky"],
+  aside[style*="position: sticky"] {
+    position: static !important;
+  }
+
+  h1 {
+    font-size: 36px !important;
+  }
+
+  h2 {
+    font-size: 28px !important;
+  }
+}
+
+@media (max-width: 600px) {
+  nav > div {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+
+  nav a,
+  nav button {
+    font-size: 14px !important;
+  }
+
+  div[style*="padding: 34px"],
+  div[style*="padding: 42px"],
+  section[style*="padding: 34px"],
+  section[style*="padding: 42px"] {
+    padding: 22px !important;
+  }
+
+  div[style*="border-radius: 34px"],
+  section[style*="border-radius: 34px"] {
+    border-radius: 24px !important;
+  }
+
+  input,
+  select,
+  textarea,
+  button {
+    max-width: 100%;
+  }
+
+  div[style*="grid-template-columns: 1fr 1fr 1fr 140px"],
+  form[style*="grid-template-columns: 1fr 1fr 1fr 150px"] {
+    grid-template-columns: 1fr !important;
+  }
+
+  div[style*="display: flex"],
+  section[style*="display: flex"] {
+    flex-wrap: wrap !important;
+  }
+
+  a,
+  button {
+    white-space: normal !important;
+  }
+}
