@@ -28,16 +28,8 @@ Make sure you have the following installed:
 
 ## Getting Started
 
-### 1. Clone the repository
 
-```bash
-git clone https://github.com/VViktorBoiko/Rural-Tourism-Platform-360-View.git
-cd Rural-Tourism-Platform-360-View
-```
-
----
-
-### 2. Backend Setup
+### 1. Backend Setup
 
 ```bash
 cd backend
@@ -74,7 +66,7 @@ API docs: `http://localhost:8000/docs`
 
 ---
 
-### 3. Frontend Setup
+### 2. Frontend Setup
 
 ```bash
 cd frontend
